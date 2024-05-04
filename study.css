@@ -1,0 +1,51 @@
+
+/* main start*/
+main {
+    margin-top: 10vw;
+    border-style: none double none double;
+    padding: 3vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main::before {
+    content: '';
+    position: fixed; 
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    z-index: -1;
+    background: url(images/books.jpg) center / cover no-repeat;
+    filter: blur(1px);
+}
+
+.card {
+    width: 22vw;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    margin-bottom: 1.5vw;
+    padding: 2vw;
+    transition: 0.7s;
+    cursor: pointer;
+    background-color: aliceblue;
+    border-radius: 1vw;
+}
+
+.number {
+    font-size: 5vw;
+    transition: 0.7s;
+}
+
+.card-text {
+    font-size: 2.5vw;
+    transition: 0.7s;
+}
+
+.card:hover {
+    border: 3px dashed black;
+    background-color: aquamarine;
+}
+/* main end*/

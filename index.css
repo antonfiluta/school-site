@@ -1,0 +1,117 @@
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2vw;
+}
+
+.litP {
+    font-size: 1.66vw;
+    margin-bottom: 1.5vw;
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3vw;
+}
+
+h3 {
+    margin-bottom: 2vw;
+    text-align: center;
+    font-size: 2.2vw;
+    font-family: inter;
+    font-weight: normal;
+}
+
+.basic-hr {
+    height: 3px;
+    margin: 2vw 0;
+    color: black;
+    background-color: black;
+}
+
+
+
+
+/* main start*/
+main {
+    margin-top: 10vw;
+    border-style: none double none double;
+    padding: 0.5vw;
+}
+
+.welcome-section::before {
+    content: '';
+    position: fixed; 
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    z-index: -1;
+    background: url(images/library.jpeg) center / cover no-repeat;
+    filter: blur(5px);
+}
+
+.welcome-section{
+    height: 55vw;
+    padding: 3.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-section h2 {
+    text-align: center;
+    font-size: 7.5vw;
+    margin-bottom: 3vw;
+    -webkit-text-stroke: 0.5px white;
+}
+
+.welcome-section div {
+    width: 88vw;
+    padding: 3vw 5.5vw 3vw 7vw;
+    border-radius: 20vw 1vw 20vw 1vw;
+    border: 0.5vw black solid;
+    font-size: 2vw;
+    background-color: aliceblue;
+    text-align: justify;
+}
+
+.welcome-section div ul li {
+    margin-bottom: 1vw;
+}
+
+
+
+.about-section {
+    background-color: aliceblue;
+    padding: 3vw;
+}
+
+
+
+.history-section {
+    padding: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.history-section div {
+    background-color: aliceblue;
+    width: 86vw;
+    border-radius: 3vw;
+    padding: 2.5vw 3vw;
+    border: 1.5px dashed black;
+}
+
+.school-img-box {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+}
+
+.school-img {
+    width: 35vw;
+    border-radius: 1.4vw;
+}
+/* main end*/
